@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+/pnpm-lock.yaml
+/package-lock.json
+/node_modules
+.next
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.npmrc
+.prettierrc
+.secretlintignore
+.secretlintrc
+.gitignore
+.git

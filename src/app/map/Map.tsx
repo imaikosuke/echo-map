@@ -18,10 +18,7 @@ export default function Map() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           crossOrigin="anonymous"
         />
-        <Marker
-          position={[35.6895, 139.6917] as [number, number]}
-          icon={defaultIcon}
-        >
+        <Marker position={[35.6895, 139.6917] as [number, number]} icon={defaultIcon}>
           <Popup>東京タワー</Popup>
         </Marker>
       </MapContainer>
